@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Provides a middleware to add Datadog's default standard attributes to logs. </Description>
+    <RepositoryUrl>https://github.com/RodrigoFNascimento/Datadog.Logging.Middleware</RepositoryUrl>
+    <Authors>Rodrigo Nascimento</Authors>
+    <PackageTags>datadog; logging;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<InternalsVisibleTo Include="$(AssemblyName).Tests.Unit"></InternalsVisibleTo>
+	<InternalsVisibleTo Include="DynamicProxyGenAssembly2"></InternalsVisibleTo>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
