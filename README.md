@@ -1,5 +1,7 @@
 # Datadog.Logging.Middleware
 
+[![.NET](https://github.com/RodrigoFNascimento/Datadog.Logging.Middleware/actions/workflows/dotnet.yml/badge.svg)](https://github.com/RodrigoFNascimento/Datadog.Logging.Middleware/actions/workflows/dotnet.yml)
+
 Datadog.Logging.Middleware adds a middleware to a .NET web application that includes in generated logs Datadog's [default standard attributes](https://docs.datadoghq.com/logs/log_configuration/attributes_naming_convention/).
 
 ## Adding the middleware
